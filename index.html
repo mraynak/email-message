@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Front-end foundations: HTML forms</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+      <main>
+          <form>
+              <div>
+                  <label for="name">Name:</label>
+                  <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  />
+              </div>
+              <div>
+                  <label for="email">Email:</label>
+                  <input
+                  id="email"
+                  type="text"
+                  name="email"
+                  />
+              </div>
+              <h2>Returning customer:</h2>
+              <div class="group">
+                  <input id="yes" name="yes/no" type="radio" value="yes" />
+                  <label for="yes">yes</label>
+              </div>
+              <div>
+                  <input id="no" name="yes/no" type="radio" value="no" />
+                  <label for="no">no</label>
+              </div>
+              <div>
+                  <label for="form-message">Your message:</label>
+                  <textarea
+                  id="form-message"
+                  name="message"
+                  maxlength="400"
+                  ></textarea>
+              </div>
+              <h2>Contact topic:</h2>
+              <div>
+                <input name="project" type="checkbox" id="project" />
+                <label for="project">Project</label>
+              </div>
+              <div>
+                <input name="info" type="checkbox" id="info" />
+                <label for="info">Info</label>
+              </div>
+              <div>
+                <input name="inquiry" type="checkbox" id="inquiry" />
+                <label for="inquiry">Inquiry</label>
+              </div>
+              <button type="submit">Submit</button>
+          </form>
+      </main>
+  </body>

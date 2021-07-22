@@ -1,0 +1,33 @@
+input {
+    margin: 10px;
+    margin-top: 0px
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    width: 95%;
+    margin:10px;
+    margin-top: 0px;
+    height: 150px;
+}
+
+button {
+    margin: 10px;
+}
+
+body {
+    padding: 10px
+}
+
+h2 {
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 0px
+}
+
+.group{
+    height: 20px;
+}
